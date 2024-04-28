@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Elena Consultants Limited</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="company-logo.png" alt="Elena Consultants Logo">
+                <span>Company Slogan</span>
+            </div>
+            <div>
+                <a href="homepage.html">Home</a>
+                <a href="about-us.html">About Us</a>
+                <a href="services.html">Our Services</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="company-profile">
+            <h2>Company Profile</h2>
+            <h3>Elena Consultants Limited</h3>
+        </section>
+        <section class="foreword">
+            <h2>Foreword</h2>
+            <p>We greatly appreciate your interest in our services. We therefore cordially invite you to a brief overview of our company structure, operations, products and services. It is our sincere hope that you will find this profile not only enlightening but also informative and an easy guide for our future business relationship. It comprises an Executive Summary, which is an overview of the legal status of our Company, our various statutory registrations, a statement on our Products & Services together with our Resources – Personnel, Clientele, and equipment. We trust that our illustrious background will measure up to the needs of your organization and look forward to the opportunity of offering our services to you. Welcome! Director.</p>
+        </section>
+        <section class="executive-summary">
+            <h2>Executive Summary</h2>
+            <h3>Background of the Firm</h3>
+            <p>Add text explaining the background of the company here.</p>
+        </section>
+        <section class="our-staff">
+            <h2>Our Staff</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Nationality</th>
+                        <th>Position</th>
+                        <th>Qualifications</th>
+                        <th>Experience</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Add staff members here -->
+                    <tr>
+                        <td>John Doe</td>
+                        <td>Country</td>
+                        <td>Position</td>
+                        <td>Degree, Certification</td>
+                        <td>Years of Experience</td>
+                    </tr>
+                    <!-- Add more staff members -->
+                </tbody>
+            </table>
+        </section>
+    </div>
+    <footer>
+        © 2024 Elena Consultants Limited
+    </footer>
+</body>
+</html>
+
+

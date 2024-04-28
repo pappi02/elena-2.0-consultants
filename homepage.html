@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elena Consultants Limited</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Add any additional styles here */
+        /* Example: */
+        @media screen and (max-width: 600px) {
+            /* Styles for small screens (less than 600px wide) */
+            /* You can adjust these styles based on your requirements */
+            .container {
+                padding: 10px; /* Example padding for small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="logo.png" alt="Elena Consultants Logo">
+            </div>
+            <div class="fixed-buttons">
+                <a href="homepage.html">Home</a>
+                <a href="About.html">About Us</a>
+                <a href="services.html">Our Services</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="vision-mission">
+            <h2>Vision</h2>
+            <p class="w3-xxlarge w3-serif">
+                <i>To be a role model in quality spatial planning.</i>
+            </p>
+            <h2>Mission</h2>
+            <p>To prepare quality spatial development plans and offer sound advisory services to all our clientele to ensure optimal and sustainable use of resources by ensuring order, access, efficiency, effectiveness aesthetics, safety and enhanced values.</p>
+        </section>
+        <section class="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Base line surveys.</li>
+                <li>Feasibility studies.</li>
+                <li>Rural, urban and regional planning.</li>
+                <li>Digital mapping.</li>
+                <li>Sectoral planning.</li>
+                <li>Research and development.</li>
+                <li>Environmental Impact Assessments & Audits.</li>
+                <li>Planning needs assessments.</li>
+                <li>Information Communication and Technology.</li>
+                <li>Urban design.</li>
+            </ul>
+        </section>
+        <section class="values">
+            <h2>Our Values</h2>
+            <ol>
+                <li>Creation of functional spaces that are responsive to the needs of our clients and communities at large.</li>
+                <li>Broad-based stakeholder participation in planning.</li>
+                <li>Value for money for our clients.</li>
+                <li>Upholding the best interest of society at large.</li>
+                <li>Continued working relations with our clients.</li>
+            </ol>
+        </section>
+    </div>
+    <footer>
+        © 2024 Elena Consultants Limited
+    </footer>
+    <script>
+        // Add JavaScript to adjust content based on window width
+        window.addEventListener('resize', function() {
+            var w = window.innerWidth;
+            // Example logic: If window width is less than 600px, apply additional styles
+            if (w < 600) {
+                // Example: Change font size for smaller screens
+                document.querySelector('.container').style.fontSize = '14px';
+            } else {
+                // Reset styles if window width is larger than 600px
+                document.querySelector('.container').style.fontSize = '';
+            }
+        });
+    </script>
+</body>
+</html>
+
+

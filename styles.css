@@ -1,0 +1,231 @@
+ /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+             background-image: url('jpeg3.jpg');
+			 background-size:250%;
+			 background-repeat:no-repeat;
+			 color: black;
+        }
+        header {
+            padding: 20px;
+			
+        }
+		
+		
+		 .fixed-buttons {
+            position:absolute;
+            top: 20px; /* Adjust the distance from the top as needed */
+            right: 20px; /* Adjust the distance from the left as needed */
+            z-index: 999; /* Ensure buttons stay on top of other content */
+        }
+       
+        
+   
+	
+	
+	
+		/* Apply 5px border radius to the logo */
+     img[src="logo.png"] {
+  border-radius: 5px;
+}
+
+
+        
+        nav {
+    display: flex;
+    justify-content: space-between;
+	border-radius: 5px;
+	
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff; 
+    margin-right: 20px;
+	 margin-top: 20px;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+	border-radius: 5px;
+}
+
+        .container {
+            
+			 border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+        }
+		
+        footer {
+            background-color: #0074D9;
+            color: #fff;
+            text-align: center;
+            padding: 40px;
+        }
+        /* Vision and Mission section */
+        .vision-mission {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        /* Services section */
+        .services {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        /* Values section */
+        .values {
+			
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+ 	
+		
+		
+		/* about us page*/
+		
+
+.container2 {
+	
+   
+    background-size: cover;
+    background-position: center;
+    padding: 50px; /* Adjust padding as needed */
+    color: black; /* Text color */
+}
+
+.container2 h2,
+.container2 h3,
+.container2 p {
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.company-profile,
+.foreword,
+.executive-summary {
+    margin-bottom: 40px; /* Adjust margin as needed */
+}
+
+.company-profile h2,
+.foreword h2,
+.executive-summary h2 {
+    font-size: 32px;
+}
+
+.company-profile h3,
+.foreword h3,
+.executive-summary h3 {
+    font-size: 24px;
+}
+
+/* Additional styling can be added as needed */
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.our-staff table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.our-staff th, .our-staff td {
+    padding: 10px;
+    text-align: left;
+	
+}
+
+.our-staff th {
+    background-color: #333;
+    color: black;
+}
+
+.our-staff tr:nth-child(even) {
+	color:black;
+    background-color: #f2f2f2;
+}
+
+.our-staff tr:hover {
+    background-color: #ddd;
+	color:black;
+}
+
+/* Flipping stripes */
+.our-staff tbody tr:nth-child(odd) {
+    background-color: #fff;
+    transition: background-color 0.5s;
+	color:black;
+}
+
+.our-staff tbody tr:nth-child(odd):hover {
+    background-color: #f9ebbd;
+}
+
+.our-staff tbody tr:nth-child(even) {
+    background-color: #f9ebbd;
+    transition: background-color 0.5s;
+}
+
+.our-staff tbody tr:nth-child(even):hover {
+    background-color: #fff;
+}
+
+
+
+      
+	  /* services page */
+	  
+	  
+
+
+.services-list {
+    list-style: none;
+    padding: 0;
+	margin:10px;
+}
+
+.services-list li {
+    margin-bottom: 10px;
+	margin-right:700px;
+	margin-left:20px;
+    padding: 10px; 
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #333;
+}
+
+
+
+     /*contact page*/
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin-bottom: 20px;
+}
+
+.contact-list li i {
+    margin-right: 10px;
+    color: #333;
+}
+
+
+
+
+     
